@@ -34,31 +34,31 @@ namespace lvl1_lsn6
 
         static void Main(string[] args)
         {
-        //    #region Task1
-        //    //1.Изменить программу вывода функции так, чтобы можно было передавать функции типа double(double, double).
-        //    //    Продемонстрировать работу на функции с функцией a*x ^ 2 и функцией a* sin(x).
+            #region Task1
+            //1.Изменить программу вывода функции так, чтобы можно было передавать функции типа double(double, double).
+            //    Продемонстрировать работу на функции с функцией a*x ^ 2 и функцией a* sin(x).
 
-        //    Console.WriteLine("Задание1. Таблица функций");
+            Console.WriteLine("Задание1. Таблица функций");
 
-        //    Console.WriteLine("Введите параметр а");
-        //    double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите параметр а");
+            double a = Convert.ToDouble(Console.ReadLine());
 
-        //    Console.WriteLine("Введите параметр x");
-        //    double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите параметр x");
+            double x = Convert.ToDouble(Console.ReadLine());
 
-        //    Console.WriteLine("Введите параметр x1( x1 > x, при выводе таблицы шаг увеличения Х равен 10)");
-        //    double x1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите параметр x1( x1 > x, при выводе таблицы шаг увеличения Х равен 10)");
+            double x1 = Convert.ToDouble(Console.ReadLine());
 
-        //    Console.WriteLine("\nПрименение функции a*x*x:");
-        //    Functions.Table(new DelegateForTable(Functions.Function1), a, x, x1);
+            Console.WriteLine("\nПрименение функции a*x*x:");
+            Functions.Table(new DelegateForTable(Functions.Function1), a, x, x1);
 
-        //    Console.WriteLine("\nПрименение функции a*sin(x):");
-        //    Functions.Table(new DelegateForTable(Functions.Function2), a, x, x1);
+            Console.WriteLine("\nПрименение функции a*sin(x):");
+            Functions.Table(new DelegateForTable(Functions.Function2), a, x, x1);
 
-        //    ClearConsole();
-        //    #endregion
+            ClearConsole();
+            #endregion
 
-        
+
 
             #region Task3
             //3.Переделать программу «Пример использования коллекций» для решения следующих задач:
